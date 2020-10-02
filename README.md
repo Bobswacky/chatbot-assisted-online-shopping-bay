@@ -1,1 +1,13 @@
-# chatbot-assisted-online-shopping-bay
+MERN
+
+
+MongoDB
+
+
+Express JS
+
+
+React JS
+
+
+Node JS
