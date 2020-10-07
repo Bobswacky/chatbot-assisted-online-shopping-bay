@@ -7,28 +7,28 @@ const price = [
     },
     {
         "_id": 1,
-        "name": "$0 to $199",
-        "array": [0, 199]
+        "name": "₦0 to ₦2,499", 
+        "array": [0, 2499]
     },
     {
         "_id": 2,
-        "name": "$200 to $249",
-        "array": [200, 249]
+        "name": "₦2,500 to ₦4,999",
+        "array": [2500, 4999]
     },
     {
         "_id": 3,
-        "name": "$250 to $279",
-        "array": [250, 279]
+        "name": "₦5,000 to ₦6,499",
+        "array": [5000, 6499]
     },
     {
         "_id": 4,
-        "name": "$280 to $299",
-        "array": [280, 299]
+        "name": "₦7,500 to ₦9,999",
+        "array": [7500, 9999]
     },
     {
         "_id": 5,
-        "name": "More than $300",
-        "array": [300, 1500000]
+        "name": "More than ₦10,000",
+        "array": [10000, 1500000]
     }
 ]
 
@@ -37,31 +37,27 @@ const price = [
 const continents = [
     {
         "_id": 1,
-        "name": "Africa"
+        "name": "Cloths"
     },
     {
         "_id": 2,
-        "name": "Europe"
+        "name": "Watches"
     },
     {
         "_id": 3,
-        "name": "Asia"
+        "name": "Shoes"
     },
     {
         "_id": 4,
-        "name": "North America"
+        "name": "Bags"
     },
     {
         "_id": 5,
-        "name": "South America"
+        "name": "Organics"
     },
     {
         "_id": 6,
-        "name": "Australia"
-    },
-    {
-        "_id": 7,
-        "name": "Antarctica"
+        "name": "Gadgets"
     }
 ]
 

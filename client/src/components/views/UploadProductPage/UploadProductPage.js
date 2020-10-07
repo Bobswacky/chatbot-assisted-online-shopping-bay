@@ -7,13 +7,12 @@ const { Title } = Typography;
 const { TextArea } = Input;
 
 const Continents = [
-    { key: 1, value: "Africa" },
-    { key: 2, value: "Europe" },
-    { key: 3, value: "Asia" },
-    { key: 4, value: "North America" },
-    { key: 5, value: "South America" },
-    { key: 6, value: "Australia" },
-    { key: 7, value: "Antarctica" }
+    { key: 1, value: "Cloths" },
+    { key: 2, value: "Watches" },
+    { key: 3, value: "Shoes" },
+    { key: 4, value: "Bags" },
+    { key: 5, value: "Organics" },
+    { key: 6, value: "Gadgets" }
 ]
 
 function UploadProductPage(props) {
@@ -78,7 +77,7 @@ function UploadProductPage(props) {
     return (
         <div style={{ maxWidth: '700px', margin: '2rem auto' }}>
             <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                <Title level={2}> Upload Travel Product</Title>
+                <Title level={2}> Upload  Product</Title>
             </div>
 
 
@@ -103,7 +102,7 @@ function UploadProductPage(props) {
                 />
                 <br />
                 <br />
-                <label>Price($)</label>
+                <label>Price(₦)</label>
                 <Input
                     onChange={onPriceChange}
                     value={PriceValue}
